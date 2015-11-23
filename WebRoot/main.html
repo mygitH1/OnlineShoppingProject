@@ -1,0 +1,176 @@
+
+<html>
+  <head>
+    <title>navMenu.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+    
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    
+    <style>
+    * {
+    	margin:0px;
+    	padding:0px;
+    }
+    body {
+    	background-color:#AA4B76;
+    	font-family:cosmic-sans;
+    	padding:50px;
+    }
+    h1 {
+    	text-align:center;
+    	border-bottom:2px solid red;
+    	margin-bottom:50px;
+    }
+    ul#navmenu , ul.sub1 , ul.sub2 , ul.sub3 ,li{
+    	list-style-type:none;
+    	 }
+    ul#navmenu li {
+    	position:relative;
+    	text-align:center;
+    	float:left;
+    	width:125px;
+    	margin-right:10px;
+   		margin-top:3px;
+    }
+    ul#navmenu a{
+    	text-decoration:none;
+    	display:block;
+    	width:125px;
+    	height:25px;
+    	line-height:25px;
+    	font-color:white;
+    	background-color:#FCFCE0;
+    	border:2px ;
+    	border-radius:5px;
+    	margin-top:3px;
+    	left:125px;
+    	
+    }
+    
+    ul#navmenu .sub3 li{
+    	margin-left:126px;
+    	
+    }
+    
+    
+    ul#navmenu li:hover > a {
+    	background-color:#999900
+    }
+    ul#navmenu li:hover a:hover{
+    	background-color:yellow;
+    }
+    ul#navmenu ul.sub3 {
+    	position:absolute;
+    	top:0px;
+    }
+    ul#navmenu ul.sub1 {
+    	display:none;
+    	left:0px;
+    	position:absolute;
+    	top:25px;
+    }
+    ul#navmenu ul.sub2 {
+    	display:none;
+    	position:absolute;
+    	top:25px;
+    }
+    ul#navmenu ul.sub3 {
+    	display:none;
+    	left:0px;
+    	position:absolute;
+    	top:0px;
+    }
+    ul#navmenu ul.sub4 {
+    	display:none;
+    	left:5px;
+    	position:absolute;
+    	top:25px;
+    }
+    ul#navmenu li:hover .sub1{
+    display:block;
+    }
+    
+    ul#navmenu li:hover .sub2{
+    display:block;
+    }
+    ul#navmenu .sub2 li:hover .sub3{
+    display:block;
+    }
+    
+    ul#navmenu li:hover .sub4{
+    display:block;
+    }
+    .darrow{
+    font-size:14pt;
+    position:absolute;
+    top:4px;
+    right:4px;
+    }
+    
+    </style>
+
+  </head>
+  
+  <body bgcolor="#93C5F7">
+  
+
+     <ul id="navmenu">
+    <li><a href="./Aboutus.jsp">ABOUTUS</a></li>
+    <li><a href=" imagesCAJ1X1CZ.jpg">VIEW  </a>
+    	<ul class="sub1">
+    	<li><a href="./signin.jsp">REGISTER</a></li>
+	    <li><a href="./Gallery.jsp">GUEST</a></li></ul>
+    <!-- 	<li><a href="./Gallery.jsp">GARMENTS</a></li>
+    	<li><a href="./Gallery.jsp">SHOES</a></li>
+    	<li><a href="./Gallery.jsp">FURNITURES</a></li>
+    	<li><a href="./Gallery.jsp">BAGS</a></li>
+    	   -->
+    </li>
+    <li><a href="./signin.jsp">REGISTER</a>
+    	<ul class="sub2">
+	    	<li><a href="./signin.jsp">NEW USER</a></li>
+    	<!-- 	<li><a href="#">link-3.2</a></li> -->
+    		<!-- <li><a href="#">link-3.3</a>
+    			<ul class="sub3">
+    			<li><a href="#">link-3.3.1</a></li>
+    			<li><a href="#">link-3.3.2</a></li>
+    			<li><a href="#">link-3.3.3</a></li>
+    			</ul>  
+    		</li>   -->
+    	</ul>
+    </li>
+    <li><a href="./Contactus.jsp">CONTACTUS</a></li>
+    <li><a href="./login.html">LOGIN</a>
+    	 <ul class="sub4">
+	    <li><a href="./login.html">ADMIN</a></li>
+    	<li><a href="./login.html">CUSTOMER</a></li>
+    	
+    	</ul></li></ul>
+    	
+    	
+    	
+    	</ul> 
+    </li>
+    </ul>
+ 
+     
+ 
+  </body>
+</html>
+
+
+ <!--  <body bgcolor="lightpink">
+
+<table align="right" cellspacing=50   >
+<tr>
+<td><font color="blue"><a style=" text-decoration:none" href=" ./Aboutus.jsp">Aboutus</a></font></td> 
+<td><blink><a  style="text-decoration:none" href=" ./Gallery.jsp">Gallery</a></blink></td> 
+<td><a  style="text-decoration:none" href=" ./signin.jsp">Register</a></td> 
+<td><a  style="text-decoration:none" href="./Contactus.jsp ">Contactus</a></td> 
+<td><a  style="text-decoration:none" href="./login.html ">Login</a></td> 
+</tr>
+</table>
+</body>   -->

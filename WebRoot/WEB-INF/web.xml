@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servletapp</servlet-name>
+    <servlet-class>ram.pvr.servletapp.Servletapp</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Forgotservlet</servlet-name>
+    <servlet-class>ram.pvr.servletapp.Forgotservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Signinservlet</servlet-name>
+    <servlet-class>ram.pvr.servletapp.Signinservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Billcal</servlet-name>
+    <servlet-class>ram.pvr.servletapp.Billcal</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Bagbill</servlet-name>
+    <servlet-class>ram.pvr.servletapp.Bagbill</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Mobilebill</servlet-name>
+    <servlet-class>ram.pvr.servletapp.Mobilebill</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Shirtbill</servlet-name>
+    <servlet-class>ram.pvr.servletapp.Shirtbill</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Shoesbill</servlet-name>
+    <servlet-class>ram.pvr.servletapp.Shoesbill</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Furniturebill</servlet-name>
+    <servlet-class>ram.pvr.servletapp.Furniturebill</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Servletapp</servlet-name>
+    <url-pattern>/Servletapp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Forgotservlet</servlet-name>
+    <url-pattern>/Forgotservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Signinservlet</servlet-name>
+    <url-pattern>/Signinservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Billcal</servlet-name>
+    <url-pattern>/Billcal</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Bagbill</servlet-name>
+    <url-pattern>/Bagbill</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Mobilebill</servlet-name>
+    <url-pattern>/Mobilebill</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Shirtbill</servlet-name>
+    <url-pattern>/Shirtbill</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Shoesbill</servlet-name>
+    <url-pattern>/Shoesbill</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Furniturebill</servlet-name>
+    <url-pattern>/Furniturebill</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>	home.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

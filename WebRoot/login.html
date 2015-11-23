@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>login.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+  
+       </head>
+  
+  <body bgcolor="#f99f##f#">
+      <B>  Login Here</B>
+      
+    
+    <form action="./Onlineshopping.jsp" method="post" onsubmit=" return checkforblank()"> 
+    <fieldset>
+
+    
+    <table>
+    <tr><td>Select:</td>
+    <td><select name="select">
+    <option value=''>--select--</option>
+    <option value='admin' >Administrator</option>
+    <option value='customer' >Customer</option></select></td></tr>
+    
+    <tr>  
+    <td>
+    Username: 
+    </td>
+    <td><input type="text" id="uname" name="name" onblur="return checkforblank()"/></td>
+    </tr>
+    
+    <tr> 
+    <td>Password:</td>
+    <td><input type="password"  id="pwd" name="pwd"/></td></tr>
+    
+    <tr> 
+    <td>Confirm Password:</td>
+    <td><input type="password" id="pwd1" name="pwd1"/></td>
+    </tr><tr>
+    <td>
+    <input type="submit" value="submit" name="click" onclick="return checkforblank()"/>
+    </td>
+    <td>
+    <a href="forgotpassword.jsp">ForGotPassword!!!</a>
+    </td>   
+    </tr>
+    
+   
+    </table>
+    </fieldset>
+     <script language="text/javascript">
+  function checkforblank(){
+var a=document.getElementById('uname').value;
+ var b=document.getElementById('pwd').value 
+ var c=document.getElementById('pwd1').value
+  if(a=="" ||b==""||c=="") 
+   {
+     alert("please enter the fields corrctly");
+      return false;  
+            }
+
+if(document.getElementById('uname').value=="")
+     {
+  alert('Please Enter Your UserName..');
+  document.getElementById('uname').style.bordercolor="red";
+  return false;
+    }
+  else if(document.getElementById('pwd').value=="")
+     {
+  alert('Please Enter Your Password..');
+  document.getElementById('pwd').style.bordercolor="yellow";
+  return false ;
+    }
+else if(document.getElementById('pwd1').value=="")
+     {
+  alert('Please Enter Your Password..');
+  document.getElementById('pwd1').style.bordercolor="yellow";
+  return false ;
+
+   }
+}
+</script>
+    
+    </form>
+    
+    
+      </body>
+</html>
